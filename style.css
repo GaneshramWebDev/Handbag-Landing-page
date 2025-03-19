@@ -191,7 +191,7 @@ section {
 
 .home {
   width: 100%;
-  min-width: 740px;
+  /* min-width: 740px; */
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
@@ -605,6 +605,7 @@ span {
   .home {
     text-align: center;
     padding: 60px 20px;
+    grid-template-columns: repeat(1, minmax(17rem, auto));
   }
 
   .home-text h1 {
@@ -720,5 +721,8 @@ span {
 
   .about {
     position: relative;
+  }
+  .customers-container .box {
+    width: 290px;
   }
 }
